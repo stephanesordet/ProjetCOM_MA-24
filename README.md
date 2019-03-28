@@ -1,6 +1,6 @@
 # Projet COM MA-24
-###Stéphane Sordet
-###28.03.2019
+### Stéphane Sordet
+### 28.03.2019
 > Dans le cadre de mon projet COM, j'ai décidé de traiter la manipulation de chaînes de caractères.
 
 > Il s'agit d'une notion abordée lors du module ICT-403, cependant, j'ai encore de nombreuses lacunes concernant ce sujet.
