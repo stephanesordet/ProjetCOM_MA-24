@@ -8,14 +8,14 @@ char entree[21] ="";
 int main()
 {
 
-    char entree2[21] ="";
+    char entree2[21] ="", copie[21]="";
     int tailleChaine,tailleChaine2 =VALEUR_INIT;
     int choixmenu=VALEUR_INIT;
     printf("Bonjour, ce programme est la pour vous familliarisez avec la manipulation de chaines de caracteres.\n\n");
 
     printf("\nChoix 1: Calcule taille chaine\n");
     printf("Choix 2: Concatenation de 2 chaines\n");
-    printf("Choix 3\n");
+    printf("Choix 3: Copie d'une chaine de caractere\n");
     printf("Choix 4\n");
     printf("Choisissez une option svp: ");
     scanf("%i",&choixmenu);
@@ -42,7 +42,10 @@ int main()
 
         break;
     case 3:
-
+        entreeUtil();
+        strcpy(copie, entree);
+        printf("Votre entree vaut : %s\n", entree);
+        printf("La copie vaut : %s", copie);
         break;
     case 4:
 
