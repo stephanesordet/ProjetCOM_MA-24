@@ -16,7 +16,7 @@ int main()
     printf("\nChoix 1: Calcule taille chaine\n");
     printf("Choix 2: Concatenation de 2 chaines\n");
     printf("Choix 3: Copie d'une chaine de caractere\n");
-    printf("Choix 4\n");
+    printf("Choix 4: Comparaison de 2 chaines\n");
     printf("Choisissez une option svp: ");
     scanf("%i",&choixmenu);
     system("cls");
@@ -48,7 +48,19 @@ int main()
         printf("La copie vaut : %s", copie);
         break;
     case 4:
+        entreeUtil();
 
+        do {
+        printf("Entrez la chaie a concatener (max. 20): ");
+        scanf("%s",&entree2);
+        tailleChaine2 = strlen(entree2);
+        } while (tailleChaine2>20);
+        if(strcmp(entree, entree2)==0){
+            printf("Les chaines sont identiques\n");
+        }
+        else{
+            printf("les chaines sont differentes\n");
+        }
         break;
     default:
 
